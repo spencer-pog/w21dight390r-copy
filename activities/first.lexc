@@ -1,0 +1,25 @@
+Multichar_Symbols
++V +Pres +3Sg +PresPtc +Past
+
+! Lexicon containing lexical stems:
+LEXICON Root
+walk V ;
+talk V ;
+pack V ;
+t V-each-aught ; ! teach+V+Past:taught
+
+LEXICON V-each-aught
+each+V+Pres+3Sg:eaches # ;
+each+V+Pres:each # ;
+each+V+Past:aught # ;
+
+! Lexicon containing POS tag only:
+LEXICON V
++V: V-suff ;
+
+! Lexicon containing inflectional suffixes and corresponding tags:
+LEXICON V-suff
++Pres+3Sg:s   # ;
++Past:ed  # ;
++PresPtc:ing # ;
++Pres:    # ;

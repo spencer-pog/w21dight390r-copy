@@ -1,0 +1,9 @@
+LEXICON Nouns
+word Noun ;
+apple Noun ;
+chick Noun ;
+
+LEXICON Noun
++N+Sg: # ;
++N+Pl:%{S%} # ;
+

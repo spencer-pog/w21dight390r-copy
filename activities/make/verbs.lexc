@@ -1,0 +1,31 @@
+LEXICON Verbs
+@U.reg.rur@:@U.reg.rur@a- Verb_entries ;
+Verb_entries ;
+
+LEXICON Verb_entries
+walk V ;
+talk V ;
+pack V ;
+t V-each-aught ; ! teach+V+Past:taught
+
+LEXICON V-each-aught
+@U.reg.std@each+V+Pres+3Sg:@U.reg.std@eaches # ;
+@U.reg.std@each+V+Pres:@U.reg.std@each       # ;
+@U.reg.std@each+V+Past:@U.reg.std@aught      # ;
++PresPtc:eaching  # ;
+
+LEXICON V
++V: V-suff ;
+
+LEXICON V-suff
+@U.reg.std@ V_std ;
+V_rur ;
+
+LEXICON V_std
++Pres+3Sg:s   # ;
++Past:ed      # ;
++PresPtc:ing  # ;
++Pres:        # ;
+
+LEXICON V_rur
++PresPtc+Use/rural:ing # ;

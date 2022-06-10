@@ -1,0 +1,30 @@
+Multichar_Symbols
+
+!!! Part of speech
++N   ! Noun
++V   ! Verb
+
+!!! Number
++Sg  ! Singular
++Pl  ! Plural
+
+!!! Tense
++Past    ! Past tense
++Pres ! Present tense
+
+!!! Verb tags
++3Sg ! 3rd person singular
++PresPtc ! Present participle
+
+%{S%}  ! archiphoneme -> s
+
+ch  ! what happens?
+
+@U.reg.rur@  ! a-walking, a-talking, etc.
+@U.reg.std@  ! standard norms
+
+
+LEXICON Root
+Nouns ;
+Verbs ;
+
